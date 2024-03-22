@@ -2,7 +2,7 @@ import os
 import nibabel as nib
 
 # Set the path to the folder containing the .nii files
-folder_path = 'C:/Users/Meruja/Downloads/Testdata/groud-truth'
+folder_path = 'C:/Users/Meruja/Downloads/Testdata/ground-truth'
 
 # Loop through each file in the folder
 for file in os.listdir(folder_path):
